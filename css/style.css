@@ -2,6 +2,16 @@ body {
     font-size: 1.5em;
     font-weight: 400;
 }
+header {
+    display: flex;
+    width: 100%;
+
+}
+header p {
+    padding-left: 80%;
+    font-weight: 100;
+    color: gray;
+}
 
 h1, h3 {
     color: gray;
@@ -30,14 +40,100 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.Guernicabackground {
+    background-image: url(../image/pabllo.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Penitent {
+    background-image: url(../image/artemisiaGenitilesh.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rembrandimg {
+    background-image: url(../image/rembrandt.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.The-Great-Wave {
+    background-image: url(../image/hokusai.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vincent {
+    background-image: url(../image/vangogportret.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Gyspay {
+    background-image: url(../image/henri.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lady {
+    background-image: url(../image/leonadro.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cafe {
+    background-image: url(../image/vincent\ van\ gogh\ cafe.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lisa {
+    background-image: url(../image/leondardoMonaLisa.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.apples {
+    background-image: url(../image/paul\ cernne\ apple.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.the-boy {
+    background-image: url(../image/edward\ hopper\ vest.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.arnolfini {
+    background-image: url(../image/anro.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.swing {
+    background-image: url(../image/jean-honore\ fragonard.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+        /* grid */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     justify-content: center;
     align-items: right;
-    gap: 30vh;
+    gap: 5vh;
+    height: 150vh;
 }
+
+
 
 .grid .info {
     padding: 20px;
@@ -50,5 +146,6 @@ img {
 .bye {
     background-color: beige;
     margin: 20px 0;
+    display: none;
 }
 
