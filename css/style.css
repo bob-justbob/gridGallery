@@ -1,0 +1,54 @@
+body {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+h1, h3 {
+    color: gray;
+}
+
+.info {
+    display: non;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+    padding: 0 40px;
+}
+
+.starrynightImg {
+    background-image: url(../image/VanGog.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.girl-with{
+    background-image: url(../image/johannesVermeer.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+    align-items: right;
+    gap: 30vh;
+}
+
+.grid .info {
+    padding: 20px;
+}
+
+.grid p {
+    width: 80%;
+}
+
+.bye {
+    background-color: beige;
+    margin: 20px 0;
+}
+
